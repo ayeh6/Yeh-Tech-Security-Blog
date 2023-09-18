@@ -2,73 +2,104 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <title>My Blog</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
+   <meta charset="UTF-8" />
+   <title>Yeh Tech</title>
+   <link rel="stylesheet" href="./assets/css/style.css" />
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
 
 <body>
-    <!-- navigation -->
-    <header>
-        <h1>
-            <a href="/">
-                ROBERT SMITH'S CYBER BLOG
+   <!-- navigation -->
+   <div class="navbar">
+      <div class="container-fluid">
+         <a class="navbar-brand h1 fs-1">YEH TECH</a>
+         <div class="navbar second column-gap-3">
+            <a href="mailto:andrewyeh6@gmail.com" class="btn btn-primary">Send Email</a>
+            <a href="https://www.linkedin.com/in/ayeh6" target="_blank">
+               <img src="https://drive.google.com/uc?export=view&id=14GW-oOoadlMxUGs5FvKkgGkrihtkFyUh"
+                  alt="LinkedIn logo" height="45px">
             </a>
-        </h1>
-        <a href="mailto:aaggarwal@2u.com" class="button">Send Email</a>
-        <a href="https://www.linkedin.com/" class="linkedin"><img
-                src="https://drive.google.com/uc?export=view&id=14GW-oOoadlMxUGs5FvKkgGkrihtkFyUh" alt="LinkedIn logo"
-                height="45px"></a>
-    </header>
+         </div>
+      </div>
+   </div>
 
 
-    <!-- "About" section -->
-    <section id="about" class="intro">
-        <!--Replace with your own image-->
-        <img src="https://drive.google.com/uc?export=view&id=1xvxRGAACLqLEMWaw6X_VatbirrIOtepy"
-            alt="Robert Smith picture" height=375px;>
-        <h2 class="section-title">Hi, I'm Robert!</h2>
-        <p>
-            This is a little introductory paragraph. You can talk about yourself, your motivation for starting the blog,
-            or what users can expect from your content! Edit this space as you see fit. Get creative!
-            <br><br>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam.
-        </p>
-    </section>
-
-
-    <!-- "Blog Posts" section -->
-    <section id="blog-post-collection" class="blog-posts">
-        <h2 class="section-title">Blog Posts</h2>
-        <article class="blog-post">
-            <img src="https://drive.google.com/uc?export=view&id=1ueyXZqXdMHEawBDTGLVD5-Kdp1t5DUZy&rl" alt="Image 1">
-
-            <div class="blog">
-                <h3>Blog Post 1 Title</h3>
-                <h4>Add Keywords</h4>
-                <p>Add a short description here. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
-                    neque animi quo cupiditate commodi saepe culpased itaque velit maiores optio dolorem excepturi
-                    aperiam dolores, voluptatibus suscipit amet quis repellat!
-                </p>
+   <!-- "About" section -->
+   <!--Replace with your own image-->
+   <div class="container-fluid intro">
+      <div class="intro-row row align-items-center">
+         <div class="col-xl-3">
+            <img
+               src="https://media.licdn.com/dms/image/C5603AQEa4Wm3yoHj5g/profile-displayphoto-shrink_800_800/0/1565893740534?e=1700092800&v=beta&t=88mDrzS1rPDNueH3byMBC6a-xgzpnX3l7uLpXqg9hUk"
+               class="img-thumbnail float-start" alt="Andrew Yeh picture">
+         </div>
+         <div class="col-xl-9 about-me">
+            <div class="row">
+               <div class="h1">Hi, I'm Andrew!</div>
             </div>
-        </article>
-
-
-        <!-- second blog post -->
-        <article class="blog-post">
-            <img src="https://drive.google.com/uc?export=view&id=1PJrGBg8LgxHAzwhfM6drWR5fdfNQkRE4" alt="Image-2">
-            <div class="blog">
-                <h3>Blog Post 2 Title</h3>
-                <h4>Add Keywords</h4>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate
-                    commodi saepe culpased itaque velit maiores optio dolorem excepturi aperiam dolores,
-                    voluptatibus suscipit amet quis repellat!
-                </p>
+            <div class="row">
+               <div class="p fs-4">
+                  I am a first generation college graduate from Modesto, California. Earned my Bachelor's in Computer
+                  Science and Engineering at the University of California, Merced in May 2019 and earned a certificate
+                  of completion in Full Stack Web Development at the University of California, Berkeley in October 2022.
+                  I also have a big interest in cybersecurity, because of that I am learning cybersecurity skills at
+                  University of California, Berkeley currently. I prefer the backend of code where I am able to create
+                  and manipulate data and implement CRUD features, but also secure them too and making sure that there
+                  are no points of exploitation when creating APIs. I hope to pursue a career somewhere in web and
+                  application services whethe it be development or security.
+               </div>
             </div>
-        </article>
-    </section>
+         </div>
+      </div>
+   </div>
+
+
+   <!-- "Blog Posts" section -->
+   <div class="blog-post-collection container">
+      <div class="row text-center blog-header">
+         <h2>Blog Posts</h2>
+      </div>
+      <div class="blog-posts-container container">
+         <div class="blog-post card">
+            <img src="https://m.media-amazon.com/images/I/41NWFzqAtPL._SY445_SX342_QL70_FMwebp_.jpg"
+               class="card-img-top" style="width: 300px;" alt="AVHzY USB tester image">
+            <div class="card-body">
+               <h3 class="card-title">AVHzY USB tester acquired!</h3>
+               <h6 class="card-subtitle">Tags: usb-c, voltage, amps, e-mark chip</h6>
+               <p class="card-text">I recently made an impulse amazon purchase of a AVHzY CT-3 USB tester. Initially saw
+                  it from
+                  a youtube
+                  video and at the time it was sold out because of the hype. Now it's finally in stock I acquired one
+                  and
+                  it is great! I am able to test my chargers and see which protocols they are able to fast charge with
+                  like
+                  samsung/apple fast charging, quick charge 3.0 or 2.0, and many other protocols. It even has an e-mark
+                  chip reader so if you have a usb-c cable with an e-mark chip, you can test to see what the cable is
+                  capable of in terms of speed and charging capabilities.</p>
+            </div>
+         </div>
+
+         <div class="blog-post card">
+            <img
+               src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.tildacdn.com%2Ftild6361-6634-4361-b433-396433333164%2Ffpr-001_light_web_2_.png&f=1&nofb=1&ipt=4bfc46bf08e87e1235c5d1106ae82d5ecabb800bdfa632f74b2dbe8a84829eb7&ipo=images"
+               class="card-img-top" style="width: 300px;" alt="AVHzY USB tester image">
+            <div class="card-body">
+               <h3 class="card-title">FlipperZero acquired!</h3>
+               <h6 class="card-subtitle">Tags: infared, sub-ghz, nfc, hacking</h6>
+               <p class="card-text">I finally got a FlipperZero! It is such a neat tool to use, so far I have been using
+                  it as a universal remote for my fan and air purifier, but it can do a lot of other things. I was able
+                  to import a bunch of amiibos onto it so it's a universal amiibo. It is also fun to just scan random
+                  things that have NFC capabilities and see what information is hidden. As far as sub-ghz I have only
+                  copied my garage opener and it seems to be finicky when it comes to it being reliable on that signal
+                  for some reason.</p>
+            </div>
+         </div>
+      </div>
+   </div>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"></script>
 </body>
 
 </html>
